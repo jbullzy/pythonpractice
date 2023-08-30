@@ -4,13 +4,14 @@ def computepay(hours, rate):
     rate = input("Enter rate: ")
     fh = float(hours)
     fr = float(rate)
+    xp = fh * fr
 
     if fh > 40: 
         reg = fr * fh
         otp = (fh - 40.0) * (fr * 0.5)
         xp = reg + otp
     else:
-        xp = fh * fr
-    print("Pay:",xp)
+        print("Pay:", xp)
 
-computepay(fh, fr)
+
+computepay(40,10)

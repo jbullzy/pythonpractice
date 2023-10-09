@@ -1,7 +1,7 @@
 import urllib.request, urllib.parse, urllib.error
 import json
 
-api_key = 'AIzaSyByxeHtMLP8ZmeLa3ual5prIDh07UIM9Pk'
+api_key = ''
 
 serviceurl = 'https://maps.googleapis.com/maps/api/geocode/json?'
 
